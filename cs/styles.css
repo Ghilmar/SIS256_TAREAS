@@ -1,0 +1,52 @@
+*{
+    font-family: Arial, sans-serif;
+}
+/*ESTILO DE INDEX*/
+body{
+    background-color: rgb(175, 175, 175);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.cabecera{
+    background-color: rgb(85, 85, 85);
+    margin: auto;
+    text-align: center;
+    color: black;
+    height: 60px;
+}
+.cabecera h1{
+    margin: 0;
+    padding: 0;
+    line-height: 60px;
+}
+a{
+    font-size: 20px;
+    transition: background-color 0.5s;
+    margin: 5px;
+}
+a:hover {
+    background-color: rgb(104, 103, 99);
+    border-radius: 5px;
+  }
+
+/*MENU*/
+.menu{
+    background-color: rgb(41, 40, 40);
+    color: black;
+    width: 300px;
+    height: 100%;
+    margin-top: -17px;
+} 
+/*ESTILO DE PAGINA DE MENSAJE*/
+.mensaje{
+    margin: auto;
+    color: rgb(53, 6, 6);
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid rgb(53, 6, 6);
+    border-radius: 10px;
+    width: 50%;
+    background-color: rgb(175, 175, 175);
+}
